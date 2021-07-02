@@ -1,14 +1,92 @@
 <template>
   <section id="portfolioSection">
     <div class="portfolioContainer">
-      <h2 class="section-title title is-2">Selected Works</h2>
+      <h2 class="section-title title is-3">Selected Works</h2>
       <div class="projectList tile is-ancestor is-gapless">
         <div class="tile is-6 is-vertical is-parent">
           <div class="tile is-child box">
             <div class="projectItem">
-              <div class="projectFor"><p class="company">the butter fairy</p></div>
+              <div class="projectFor"><p class="company">christina starr</p></div>
               <div class="projectImgContainer">
-                <img class="projectImg" src="~/assets/img/ButterFairy-Menu.jpg" alt="" />
+                <img class="projectImg" src="~/assets/img/studio-imphepo-flyer-July-v4-Approved.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">Big Thought</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/Y2P-open-house-flyer-added links.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">BN</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/bn-logo.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">The Butter Fairy</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/ButterFairy-Menu.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">Timberlight Photogrphy</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/timberlight-emblem.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-6 is-vertical is-parent">
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">Big Thought</p></div>
+              <div class="projectImgContainer">
+                <img class="projectImg" src="~/assets/img/y2p-flyer-irl.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">christina starr</p></div>
+              <div class="projectImgContainer">
+                <img class="projectImg" src="~/assets/img/AfroHouse-Memorial-Day-Party-Flyer.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">Can We Kick It?</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/can-we-kick-it-logo.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -24,21 +102,39 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="tile is-6 is-vertical is-parent">
           <div class="tile is-child box">
             <div class="projectItem">
-              <div class="projectFor"><p class="company">Big Thought</p></div>
+              <div class="projectFor"><p class="company">Christina Starr</p></div>
               <div class="projectImgContainer">
-                <img class="projectImg" src="~/assets/img/Y2P-open-house-flyer-added links.png" alt="" />
+                <img
+                  class="projectImg"
+                  src="~/assets/img/studio-imphepo-flyer-June-new-date-Approved.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
           <div class="tile is-child box">
             <div class="projectItem">
-              <div class="projectFor"><p class="company">christina starr</p></div>
+              <div class="projectFor"><p class="company">Good Green</p></div>
               <div class="projectImgContainer">
-                <img class="projectImg" src="~/assets/img/AfroHouse-Memorial-Day-Party-Flyer.png" alt="" />
+                <img
+                  class="projectImg"
+                  src="~/assets/img/gg-christmas-ig-stories.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <div class="projectItem">
+              <div class="projectFor"><p class="company">Good Green</p></div>
+              <div class="projectImgContainer">
+                <img
+                  class="projectImg"
+                  src="~/assets/img/gg-website.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -57,11 +153,12 @@ export default {
 <style>
 #portfolioSection {
   width: 100vw;
-  background: white;
+  background: #f5f5f5;
   padding: 8em 0;
 }
 .title {
   color: #0075ff;
+  font-size: 1em;
 }
 .tile {
   display: flex !important;
@@ -87,6 +184,7 @@ export default {
   display: flex;
   align-content: center;
   justify-content: center;
+  background: #f5f5f5;
 }
 .box:after {
   content: "";
@@ -106,8 +204,8 @@ export default {
   align-items: center;
 }
 .projectImgContainer {
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 85%;
+  max-width: 85%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -122,10 +220,11 @@ export default {
   text-transform: uppercase;
   font-family: 'GT America Mono';
   color: #0075ff;
+  text-align: center;
   font-weight: regular;
   position: absolute;
-  bottom: 16px;
   right: 16px;
+  bottom: 16px;
 }
 
  @media (min-width: 1000px) {

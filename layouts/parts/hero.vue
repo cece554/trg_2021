@@ -2,7 +2,7 @@
 <section class="heroSection">
   <div class="splash">
     <div class="logo-container">
-        <img class="logo" src="@/assets/new-me.svg" alt="Thats Really Good Logo">
+        <img class="logo" src="@/assets/logo.svg" alt="Thats Really Good Logo">
     </div>
     <h1 class="copy has-text-centered is-size-3">
           That’s Really Good is a creative studio dedicated to crafting engaging digital & IRL experiences while building frameworks for unforgettable brands
@@ -28,7 +28,7 @@
 
 <style>
 .heroSection{
-  background:white;
+  background:#f5f5f5;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;

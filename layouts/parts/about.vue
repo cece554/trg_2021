@@ -29,13 +29,13 @@ export default {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: 10em;
+    padding: 2em;
   }
   .aboutbox{
     font-family: 'GT America Mono';
     padding: 2em;
     border: 1px solid #0075ff;
-    height: 30em;
+    min-height: 30em;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -74,6 +74,9 @@ export default {
   .aboutWrapper{
     flex-wrap: wrap;
     padding: 1em;
+  }
+  .aboutbox{
+    max-height: 40em;
   }
   .aboutbox:not(:last-child){
     margin: 0 0 4px 0;

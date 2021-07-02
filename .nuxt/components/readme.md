@@ -1,6 +1,6 @@
 # Discovered Components
 
-This is an auto-generated list of components discovered by [nuxt/components](https://hub.com/nuxt/components).
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
 
 You can directly use them in pages and other components without the need to import them.
 
