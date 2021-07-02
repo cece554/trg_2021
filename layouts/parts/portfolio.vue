@@ -1,12 +1,12 @@
 <template>
-  <div id="portfolio-section">
-    <div class="portfolio-container">
+  <section id="portfolioSection">
+    <div class="portfolioContainer">
       <h2 class="section-title title is-2">Selected Works</h2>
-      <div class="tile is-ancestor is-gapless projectList">
+      <div class="projectList tile is-ancestor is-gapless">
         <div class="tile is-6 is-vertical is-parent">
           <div class="tile is-child box">
             <div class="projectItem">
-              <div class="projectFor"><p class="company">the company</p></div>
+              <div class="projectFor"><p class="company">the butter fairy</p></div>
               <div class="projectImgContainer">
                 <img class="projectImg" src="~/assets/img/ButterFairy-Menu.jpg" alt="" />
               </div>
@@ -36,7 +36,7 @@
           </div>
           <div class="tile is-child box">
             <div class="projectItem">
-              <div class="projectFor"><p class="company">the company</p></div>
+              <div class="projectFor"><p class="company">christina starr</p></div>
               <div class="projectImgContainer">
                 <img class="projectImg" src="~/assets/img/AfroHouse-Memorial-Day-Party-Flyer.png" alt="" />
               </div>
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -55,11 +55,10 @@ export default {
 </script>
 
 <style>
-#portfolio-section {
+#portfolioSection {
   width: 100vw;
-  min-height: 10vh;
   background: white;
-  padding: 20vh;
+  padding: 8em 0;
 }
 .title {
   color: #0075ff;
@@ -72,12 +71,11 @@ export default {
   padding: 2px;
 }
 .section-title {
-  margin-bottom: 4rem !important;
+  margin-bottom: 4em !important;
   text-align: center;
 }
-.porfolio-container {
-  max-width: 768px;
-  display: flex;
+.portfolioContainer {
+ padding: 0 4em;
 }
 .box {
   border-radius: 0;
@@ -85,8 +83,6 @@ export default {
   box-shadow: none;
   border: 1px solid #0075ff;
   flex: 1;
-  min-width: 250px;
-  min-height: 250px;
   position: relative;
   display: flex;
   align-content: center;
@@ -102,7 +98,7 @@ export default {
 }
 .projectList{
   display: flex;
-  flex-wrap:wrap;
+  margin: 2em;
 }
 .projectItem {
   display: flex;
@@ -128,18 +124,25 @@ export default {
   color: #0075ff;
   font-weight: regular;
   position: absolute;
-  bottom: 50%;
-  right: 25px;
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  transform-origin: right;
+  bottom: 16px;
+  right: 16px;
 }
 
+ @media (min-width: 1000px) {
+
+}
+@media only screen and (max-width: 990px) {
+ .title.is-2{
+   font-size: 2em;
+ }
+}
+@media only screen and (max-width: 600px) {
+.projectList{
+  display: flex;
+  flex-direction: column;
+}
+.portfolioContainer{
+  padding: 0 1em;
+}
+}
 </style>

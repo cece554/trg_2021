@@ -1,14 +1,13 @@
 <template>
   <div id="main">
-   <section>
       <div class="container">
         <nuxt />
       </div>
-    </section>
   </div>
 </template>
 
 <script>
+
 export default {
   data () {
     return {
@@ -31,6 +30,7 @@ export default {
 
 <style>
 @import '~assets/styles/css/main.css';
+
 body{
   font-family: 'Hanson' !important;
   color: #0075FF;
