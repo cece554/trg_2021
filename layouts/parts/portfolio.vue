@@ -153,7 +153,7 @@ export default {
 <style>
 #portfolioSection {
   width: 100vw;
-  background: #f5f5f5;
+  background: white;
   padding: 8em 0;
 }
 .title {
@@ -184,7 +184,7 @@ export default {
   display: flex;
   align-content: center;
   justify-content: center;
-  background: #f5f5f5;
+  background: white;
 }
 .box:after {
   content: "";
